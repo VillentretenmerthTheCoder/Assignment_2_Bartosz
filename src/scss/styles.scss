@@ -5,11 +5,20 @@ $colorHeading: #be4a14;
     color: $fontColor;
 }
 
-h2
-{
+h1{
     color: $colorHeading;
 }
 
-h1{
-    @extend h2;
+  
+table, th, td {
+    border-collapse: collapse;
+  }
+tr{
+    background-color: coral;
+    font-size: 20px;
 }
+
+tr:nth-child(even) {
+    background-color: red;
+    font-size: 20px;
+  }
